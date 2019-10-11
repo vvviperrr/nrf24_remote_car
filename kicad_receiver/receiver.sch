@@ -402,25 +402,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 2750 3300 2750
 Wire Wire Line
-	1500 3250 1250 3250
-Wire Wire Line
-	1250 3250 1250 4200
-Wire Wire Line
-	1250 4200 3100 4200
-Wire Wire Line
-	3100 4200 3100 3150
-Wire Wire Line
-	3100 3150 3300 3150
-Wire Wire Line
-	1500 3350 1350 3350
-Wire Wire Line
-	1350 3350 1350 4300
-Wire Wire Line
 	1350 4300 3200 4300
 Wire Wire Line
 	3200 4300 3200 2950
-Wire Wire Line
-	3200 2950 3300 2950
 Text GLabel 9950 5300 2    50   Output ~ 0
 BAT+
 Text GLabel 9950 6250 2    50   Output ~ 0
@@ -650,10 +634,6 @@ $EndComp
 Text GLabel 2500 3250 2    50   Output ~ 0
 FF_PWM
 Wire Wire Line
-	2500 3350 3000 3350
-Wire Wire Line
-	3000 3350 3000 3250
-Wire Wire Line
 	3000 3250 3300 3250
 Text GLabel 1100 3550 0    50   Output ~ 0
 FB_PWM
@@ -778,8 +758,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 1200 8650 1100
 Connection ~ 8650 1100
-Wire Wire Line
-	7100 1850 7000 1850
 Wire Wire Line
 	7000 1850 7000 1750
 Wire Wire Line
@@ -1055,8 +1033,6 @@ Wire Wire Line
 	8650 3200 8650 3100
 Connection ~ 8650 3100
 Wire Wire Line
-	7100 3850 7000 3850
-Wire Wire Line
 	7000 3850 7000 3750
 Wire Wire Line
 	7000 3100 8200 3100
@@ -1190,9 +1166,9 @@ F 3 "" H 9600 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 9900 3250 0    50   Input ~ 0
-FF_PWM
+TURN_LEFT
 Text GLabel 9900 4100 0    50   Input ~ 0
-FB_PWM
+TURN_RIGHT
 $Comp
 L Device:D_Schottky D3
 U 1 1 5DBD8DF0
@@ -1375,4 +1351,39 @@ Wire Wire Line
 Connection ~ 3400 6000
 Wire Wire Line
 	3400 6000 3400 5650
+NoConn ~ 10500 1250
+NoConn ~ 10500 2100
+NoConn ~ 10500 3250
+NoConn ~ 10500 4100
+NoConn ~ 3200 5900
+Wire Wire Line
+	3300 2950 3200 2950
+Wire Wire Line
+	1350 3350 1350 4300
+Wire Wire Line
+	1500 3350 1350 3350
+Wire Wire Line
+	3000 3350 3000 3250
+Wire Wire Line
+	2500 3350 3000 3350
+Wire Wire Line
+	3300 3150 3100 3150
+Wire Wire Line
+	3100 3150 3100 4200
+Wire Wire Line
+	3100 4200 1400 4200
+Wire Wire Line
+	1400 4200 1400 3250
+Wire Wire Line
+	1400 3250 1500 3250
+NoConn ~ 2500 2450
+NoConn ~ 2500 2550
+NoConn ~ 2500 2650
+NoConn ~ 2500 2750
+NoConn ~ 2500 2850
+NoConn ~ 1500 2650
+Wire Wire Line
+	7100 1850 7000 1850
+Wire Wire Line
+	7100 3850 7000 3850
 $EndSCHEMATC
