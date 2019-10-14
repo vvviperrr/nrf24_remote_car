@@ -307,7 +307,7 @@ Text GLabel 5500 2300 2    50   Output ~ 0
 SWIO
 Text GLabel 5500 2500 2    50   Output ~ 0
 RST
-Text GLabel 5500 2400 2    50   Output ~ 0
+Text GLabel 5500 2200 2    50   Output ~ 0
 SWCLK
 Wire Wire Line
 	5400 2100 5500 2100
@@ -323,9 +323,9 @@ Text GLabel 2650 3450 2    50   Input ~ 0
 SWIO
 Text GLabel 2650 3550 2    50   Input ~ 0
 SWCLK
-Text GLabel 5500 2200 2    50   Output ~ 0
-3v3mcu
 Text GLabel 5500 2100 2    50   Output ~ 0
+3v3mcu
+Text GLabel 5500 2400 2    50   Output ~ 0
 GND
 Wire Wire Line
 	2500 3450 2650 3450
@@ -1013,7 +1013,7 @@ NoConn ~ 1500 3250
 NoConn ~ 1500 3350
 Wire Wire Line
 	3700 3700 3750 3700
-NoConn ~ 2500 2650
+NoConn ~ 2500 3350
 Wire Wire Line
 	4000 1400 4700 1400
 Wire Wire Line
@@ -1151,7 +1151,7 @@ Text GLabel 3750 3400 0    50   Input ~ 0
 SPI_SCK
 Text GLabel 3750 3800 0    50   Output ~ 0
 NRF_IRQ
-Text GLabel 2500 3350 2    50   Output ~ 0
+Text GLabel 2500 2650 2    50   Output ~ 0
 NRF_IRQ
 Text GLabel 2500 2450 2    50   Output ~ 0
 NRF_CE
