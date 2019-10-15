@@ -3,4 +3,5 @@
   (lib (name fs8205a)(type Legacy)(uri ${KIPRJMOD}/lib/fs8205a.lib)(options "")(descr ""))
   (lib (name dw01)(type Legacy)(uri ${KIPRJMOD}/lib/dw01.lib)(options "")(descr ""))
   (lib (name L9110)(type Legacy)(uri ${KIPRJMOD}/lib/L9110.lib)(options "")(descr ""))
+  (lib (name lm358)(type Legacy)(uri /home/viper/projects/nrf24_remote_car/kicad_receiver/lib/LM358.lib)(options "")(descr ""))
 )
