@@ -503,17 +503,15 @@ U 1 1 5DBED969
 P 7200 4850
 F 0 "J6" V 7164 4762 50  0001 R CNN
 F 1 "CHG+5V" V 7073 4762 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 7200 4850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 7200 4850 50  0001 C CNN
 F 3 "~" H 7200 4850 50  0001 C CNN
 	1    7200 4850
 	-1   0    0    1   
 $EndComp
-Text GLabel 2500 3250 2    50   Output ~ 0
+Text GLabel 1500 3550 0    50   Output ~ 0
 FF_PWM
-Text GLabel 1100 3550 0    50   Output ~ 0
+Text GLabel 2500 3250 2    50   Output ~ 0
 FB_PWM
-Wire Wire Line
-	1500 3550 1100 3550
 $Comp
 L Device:R R5
 U 1 1 5DA49073
@@ -744,9 +742,9 @@ Text GLabel 950  1400 0    50   Input ~ 0
 GND
 Text GLabel 3800 1400 0    50   Input ~ 0
 GND
-Text GLabel 2500 2750 2    50   Input ~ 0
-TURN_LEFT
 Text GLabel 2500 2850 2    50   Input ~ 0
+TURN_LEFT
+Text GLabel 2500 2750 2    50   Input ~ 0
 TURN_RIGHT
 $Comp
 L Connector_Generic:Conn_01x01 J2
@@ -754,7 +752,7 @@ U 1 1 5DB3E463
 P 6550 1650
 F 0 "J2" V 6514 1562 50  0001 R CNN
 F 1 "M1+" V 6423 1562 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6550 1650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6550 1650 50  0001 C CNN
 F 3 "~" H 6550 1650 50  0001 C CNN
 	1    6550 1650
 	-1   0    0    1   
@@ -765,7 +763,7 @@ U 1 1 5DB3FADC
 P 6550 1950
 F 0 "J3" V 6514 1862 50  0001 R CNN
 F 1 "M1-" V 6423 1862 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6550 1950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6550 1950 50  0001 C CNN
 F 3 "~" H 6550 1950 50  0001 C CNN
 	1    6550 1950
 	-1   0    0    1   
@@ -776,7 +774,7 @@ U 1 1 5DB41829
 P 6550 3100
 F 0 "J4" V 6514 3012 50  0001 R CNN
 F 1 "M2+" V 6423 3012 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6550 3100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6550 3100 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
 	-1   0    0    1   
@@ -787,7 +785,7 @@ U 1 1 5DB41D99
 P 6550 3400
 F 0 "J5" V 6514 3312 50  0001 R CNN
 F 1 "M2-" V 6423 3312 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6550 3400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6550 3400 50  0001 C CNN
 F 3 "~" H 6550 3400 50  0001 C CNN
 	1    6550 3400
 	-1   0    0    1   
@@ -798,7 +796,7 @@ U 1 1 5DB43D35
 P 7200 5900
 F 0 "J7" V 7164 5812 50  0001 R CNN
 F 1 "CHG-" V 7073 5812 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 7200 5900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 7200 5900 50  0001 C CNN
 F 3 "~" H 7200 5900 50  0001 C CNN
 	1    7200 5900
 	-1   0    0    1   
@@ -809,7 +807,7 @@ U 1 1 5DB4666A
 P 10400 4950
 F 0 "J8" V 10364 4862 50  0001 R CNN
 F 1 "BAT+" V 10273 4862 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 10400 4950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 10400 4950 50  0001 C CNN
 F 3 "~" H 10400 4950 50  0001 C CNN
 	1    10400 4950
 	1    0    0    -1  
@@ -820,7 +818,7 @@ U 1 1 5DB47127
 P 10400 5900
 F 0 "J9" V 10364 5812 50  0001 R CNN
 F 1 "BAT-" V 10273 5812 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 10400 5900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 10400 5900 50  0001 C CNN
 F 3 "~" H 10400 5900 50  0001 C CNN
 	1    10400 5900
 	1    0    0    -1  
@@ -1254,4 +1252,26 @@ Wire Wire Line
 	9300 3500 9300 2950
 Wire Wire Line
 	9300 2650 9300 2400
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5DF09767
+P 6050 4550
+F 0 "J10" V 6014 4462 50  0001 R CNN
+F 1 "LIGHTS" V 5923 4462 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6050 4550 50  0001 C CNN
+F 3 "~" H 6050 4550 50  0001 C CNN
+	1    6050 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5DF09F8C
+P 6050 4750
+F 0 "J11" V 6014 4662 50  0001 R CNN
+F 1 "BEEP" V 5923 4662 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6050 4750 50  0001 C CNN
+F 3 "~" H 6050 4750 50  0001 C CNN
+	1    6050 4750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
