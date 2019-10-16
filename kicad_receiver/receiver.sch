@@ -846,7 +846,6 @@ NoConn ~ 1500 3250
 NoConn ~ 1500 3350
 Wire Wire Line
 	3700 3700 3750 3700
-NoConn ~ 2500 3350
 Wire Wire Line
 	4000 1400 4700 1400
 Wire Wire Line
@@ -965,7 +964,7 @@ Text GLabel 3750 3400 0    50   Input ~ 0
 SPI_SCK
 Text GLabel 3750 3800 0    50   Output ~ 0
 NRF_IRQ
-Text GLabel 2500 2650 2    50   Output ~ 0
+Text GLabel 2500 3350 2    50   Output ~ 0
 NRF_IRQ
 Text GLabel 2500 2450 2    50   Output ~ 0
 NRF_CE
@@ -1137,28 +1136,6 @@ Wire Wire Line
 Connection ~ 10450 2400
 Wire Wire Line
 	10450 900  10950 900 
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5DF09767
-P 6050 4550
-F 0 "J10" V 6014 4462 50  0001 R CNN
-F 1 "LIGHTS" V 5923 4462 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6050 4550 50  0001 C CNN
-F 3 "~" H 6050 4550 50  0001 C CNN
-	1    6050 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5DF09F8C
-P 6050 4750
-F 0 "J11" V 6014 4662 50  0001 R CNN
-F 1 "BEEP" V 5923 4662 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 6050 4750 50  0001 C CNN
-F 3 "~" H 6050 4750 50  0001 C CNN
-	1    6050 4750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9650 2400 10100 2400
 Wire Wire Line
@@ -1260,23 +1237,12 @@ F 3 "~" H 2550 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C18
-U 1 1 5DA8BDFA
-P 4200 6050
-F 0 "C18" H 4318 6096 50  0000 L CNN
-F 1 "10uf" H 4318 6005 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 4238 5900 50  0001 C CNN
-F 3 "~" H 4200 6050 50  0001 C CNN
-	1    4200 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C17
+L Device:C C17
 U 1 1 5DA97984
 P 2100 6300
 F 0 "C17" H 2218 6346 50  0000 L CNN
 F 1 "10uf" H 2218 6255 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 2138 6150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2138 6150 50  0001 C CNN
 F 3 "~" H 2100 6300 50  0001 C CNN
 	1    2100 6300
 	1    0    0    -1  
@@ -1381,20 +1347,6 @@ Wire Wire Line
 	3100 6150 3100 6450
 Connection ~ 3100 6450
 Wire Wire Line
-	3100 6450 4200 6450
-Wire Wire Line
-	3100 5000 4200 5000
-Wire Wire Line
-	4200 5900 4200 5000
-Connection ~ 4200 5000
-Wire Wire Line
-	4200 5000 4350 5000
-Wire Wire Line
-	4200 6200 4200 6450
-Wire Wire Line
-	4200 6450 4400 6450
-Connection ~ 4200 6450
-Wire Wire Line
 	4000 5750 4300 5750
 Wire Wire Line
 	2700 5650 2700 5300
@@ -1403,4 +1355,10 @@ Wire Wire Line
 	2100 5650 2100 5300
 Wire Wire Line
 	2100 5300 2400 5300
+Wire Wire Line
+	3100 5000 4350 5000
+Wire Wire Line
+	3100 6450 4400 6450
+Text GLabel 2500 2650 2    50   Input ~ 0
+VIBRO_SIGNAL
 $EndSCHEMATC
