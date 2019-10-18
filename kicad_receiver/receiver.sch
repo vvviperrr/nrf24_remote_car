@@ -303,11 +303,11 @@ F 3 "~" H 5200 2300 50  0001 C CNN
 	1    5200 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 2200 2    50   Output ~ 0
+Text GLabel 5500 2100 2    50   Output ~ 0
 SWIO
 Text GLabel 5500 2300 2    50   Output ~ 0
 RST
-Text GLabel 5500 2100 2    50   Output ~ 0
+Text GLabel 5500 2200 2    50   Output ~ 0
 SWCLK
 Wire Wire Line
 	5400 2100 5500 2100
@@ -850,7 +850,7 @@ Text GLabel 3750 3400 0    50   Input ~ 0
 SPI_SCK
 Text GLabel 3750 3800 0    50   Output ~ 0
 NRF_IRQ
-Text GLabel 2500 3350 2    50   Output ~ 0
+Text GLabel 2500 3350 2    50   Input ~ 0
 NRF_IRQ
 Text GLabel 3700 3700 0    50   Input ~ 0
 NRF_CE
@@ -1051,7 +1051,7 @@ L Connector_Generic:Conn_01x01 J10
 U 1 1 5DAB1763
 P 4300 5200
 F 0 "J10" V 4264 5112 50  0001 R CNN
-F 1 "PIEZO_OUT" V 4173 5112 50  0000 R CNN
+F 1 "PIEZO_IN" V 4173 5112 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 4300 5200 50  0001 C CNN
 F 3 "~" H 4300 5200 50  0001 C CNN
 	1    4300 5200
@@ -1062,7 +1062,7 @@ L Connector_Generic:Conn_01x01 J11
 U 1 1 5DAB067E
 P 4900 5200
 F 0 "J11" V 4864 5112 50  0001 R CNN
-F 1 "PIEZO_IN" V 4773 5112 50  0000 R CNN
+F 1 "PIEZO_OUT" V 4773 5112 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 4900 5200 50  0001 C CNN
 F 3 "~" H 4900 5200 50  0001 C CNN
 	1    4900 5200
@@ -1073,9 +1073,9 @@ Text GLabel 2500 2750 2    50   Output ~ 0
 NRF_CSN
 Text GLabel 2500 2850 2    50   Output ~ 0
 NRF_CE
-Text GLabel 2500 2450 2    50   Input ~ 0
+Text GLabel 2500 2450 2    50   Output ~ 0
 TURN_RIGHT
-Text GLabel 2500 2550 2    50   Input ~ 0
+Text GLabel 2500 2550 2    50   Output ~ 0
 TURN_LEFT
 $Comp
 L Transistor_FET:BSS138 Q1
